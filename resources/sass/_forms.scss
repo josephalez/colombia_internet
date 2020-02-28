@@ -1,0 +1,68 @@
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: $dark-blue;
+    background-color: $dark-blue;
+}
+
+.main-search-form{
+    width:680px;
+    height:auto;
+    border-radius:60px;
+    background-color: $main-gray;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(30,30,30,0.35);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(30,30,30,0.35);
+    box-shadow: 0px 0px 24px 0px rgba(30,30,30,0.35);
+}
+
+@media (max-width:768px){
+    .main-search-form{
+        width:65%;        
+    }
+}
+
+.main-form-title-container:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3.5px $mid-gray;  
+    border-radius: 5px;
+    transform: scaleX(0.35);  
+    transition: transform 250ms ease-in-out;
+}
+
+.main-form-title{
+    color: $main-blue;
+    font-size: 1.3rem;
+}
+
+.ci-select {
+    padding-left: 2.375rem!important;
+    color: gray;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+@media(max-width:767px){
+    .main-search-form{
+        width:80%;
+    }    
+}
+
+@media(min-width:992px){
+    
+    .filterCard{
+        position: sticky;
+        left: 0;
+        top: 15%;
+    }
+    
+}

@@ -1,0 +1,52 @@
+
+
+.ic-logo-grey{
+    max-width: 220px;
+    padding:5px 10px;
+}
+
+
+.main-middle{
+    min-height:45%;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.about-number{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.5rem;
+}
+
+.about-text{
+    font-size: .85rem;
+    color: $dark-blue;
+}
+
+.about-title{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.about-title-container:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3.5px $mid-gray;
+    border-radius: 15px;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.about-title-container:after{
+    transform: scaleX(0.45);
+}

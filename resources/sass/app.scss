@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'images';
+@import 'btns';
+@import 'headers';
+@import "backgrounds";
+@import "layout";
+@import "items";
+@import "buttons";
+@import "highcompanies";
+@import "highplans";
+@import "nosotros";
+@import "contacto";
+@import "footer";
+@import "planComparator";
+@import "responsive";
+@import "forms";
+@import "texts";
+@import "counters";
+@import "whatsapp";
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+@font-face{
+    font-family: montserrat-bold;
+    src: url("./../assets/fonts/Montserrat-Bold.otf");
+}
+
+@font-face{
+    font-family: montserrat-regular;
+    src: url("./../assets/fonts/Montserrat-Regular.otf");
+}
+
+.mts-regular{
+    font-family: montserrat-regular!important;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: montserrat-bold;
+    word-break: break-word;    
+    box-sizing: content-box;
+}
